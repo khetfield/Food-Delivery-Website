@@ -1,0 +1,101 @@
+.business-info-content {
+  width: 100%;
+}
+
+.business-info__header {
+  position: relative;
+}
+
+.business-info__header,
+.business-info__image {
+  height: 250px;
+}
+
+.business-info__header img[src=""] {
+  display: none;
+}
+
+.business-info__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  background-color: lightgrey;
+}
+
+.business-actions {
+  padding: 20px;
+  gap: 20px;
+}
+
+.business-actions button {
+  padding: 0.75rem;
+  border-radius: 3rem;
+  border: 2px solid black;
+}
+
+.business-profile {
+  margin-top: 20px;
+  gap: 10px;
+  max-width: 100%;
+}
+
+.business-profile__name,
+.business-profile__address {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.business-profile__name {
+  font-size: 2rem;
+}
+
+.business-profile p {
+  display: flex;
+  gap: 5px;
+}
+
+.business-profile__overview {
+  border: 15px solid black;
+  height: 600px;
+  position: relative;
+  display: flex;
+  gap: 40px;
+}
+
+.overview-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.overview-cover > p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+#temp-1 {
+  background: rgb(185, 185, 185);
+  height: 100%;
+  flex-grow: 1;
+}
+
+#temp-2 {
+  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#temp-2 > div {
+  background: rgb(185, 185, 185);
+  width: 100%;
+  flex-grow: 1;
+}

@@ -1,0 +1,38 @@
+.auth-form {
+  gap: 10px;
+  width: 350px;
+}
+
+.auth-form h2 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.auth-form input,
+.auth-form button,
+.auth-form select {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+.auth-form input,
+.auth-form select {
+  background-color: var(--input-color);
+  border: 2px solid var(--input-color);
+}
+
+.auth-form select {
+  width: 100px;
+}
+
+.auth-form input:focus,
+.auth-form select:focus {
+  border: 2px solid black;
+}
+
+.auth-form button {
+  padding: 1rem;
+}

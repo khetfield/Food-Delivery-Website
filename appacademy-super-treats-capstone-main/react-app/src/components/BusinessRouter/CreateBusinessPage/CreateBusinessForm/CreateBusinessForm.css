@@ -1,0 +1,58 @@
+.create-business-form {
+  width: 550px;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 10px;
+  background-color: white;
+}
+
+.create-business-form p {
+  font-size: 0.75rem;
+  padding: 2px 0px;
+}
+
+.create-business-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.create-business-form input:not([type="radio"]),
+.create-business-form select,
+.create-business-form button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.create-business-form input,
+.create-business-form select {
+  background-color: var(--input-color);
+}
+
+.price-range-input {
+  gap: 20px;
+}
+
+.price-range-input label {
+  padding: 5px;
+}
+
+.delivery-input {
+  gap: 20px;
+}
+
+.business-image-input img {
+  height: 150px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.create-business-form p:empty:before {
+  content: ' ';
+  white-space: pre;
+}

@@ -1,0 +1,10 @@
+.category-form {
+  width: 450px;
+  padding: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.category-form input {
+  font-size: 1rem;
+}

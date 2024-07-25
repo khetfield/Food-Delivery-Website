@@ -1,0 +1,24 @@
+.create-business-page {
+  background-color: midnightblue;
+}
+
+.create-business-content {
+  display: grid;
+  grid-template-columns: 550px 550px;
+  width: fit-content;
+  margin: auto
+}
+
+.create-business-content__tagline {
+  padding: 40px;
+  color: white;
+}
+
+.create-business-content__tagline h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.create-business-content__tagline p {
+  font-size: 1rem;
+}

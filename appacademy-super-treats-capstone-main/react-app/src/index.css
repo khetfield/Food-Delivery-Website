@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "UberMove";
+  src: url("./resources/UberMoveLight.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "UberMove";
+  src: url("./resources/UberMoveRegular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "UberMove";
+  src: url("./resources/UberMoveMedium.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "UberMove";
+  src: url("./resources/UberMoveBold.otf");
+  font-weight: 900;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+
+  --input-color: rgb(233, 233, 233)
+}
+
+* {
+  font-family: "UberMove", Arial, Helvetica, sans-serif;
+}
+
+input,
+select,
+option,
+textarea {
+  font-weight: 200;
+}
+
+#root {
+  height: 100vh;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.logo-b {
+  font-weight: 900;
+}
+
+.pg-pd {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.ft-15 {
+  font-size: 1.5rem;
+}
+
+.bt-pd {
+  padding: 1rem;
+}
+
+.bt-br {
+  border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-01 {
+  justify-content: left;
+  align-items: center;
+}
+
+.flex-11 {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-21 {
+  justify-content: right;
+  align-items: center;
+}
+
+.flex-20 {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.flex-22 {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-b1 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fh {
+  height: 100%;
+}
+
+.fw {
+  width: 100%;
+}
+
+.g10 {
+  gap: 10px;
+}
+
+.g20 {
+  gap: 20px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+
+.bt-black {
+  background-color: black;
+  color: white !important;
+  border: none;
+  outline: none;
+}
+
+.bt-black:hover {
+  background-color: #333;
+}
+
+.auth-error {
+  font-size: 0.8rem !important;
+  color: firebrick;
+  font-style: italic;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.hide-scroll {
+  overflow: hidden;
+}
+
+.coming-soon-banner {
+  font-size: 0.8rem;
+  padding: 4px;
+  background-color: green;
+  color: white;
+}

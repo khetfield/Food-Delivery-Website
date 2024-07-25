@@ -1,0 +1,35 @@
+.business-browsing {
+  gap: 40px;
+}
+
+.filter-bar {
+  padding: 20px 0px;
+  border-bottom: 1px solid lightgrey;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+.deals-bar {
+  height: fit-content;
+  padding: 50px 0px;
+  gap: 24px;
+}
+
+.deal-card {
+  background-color: darkgoldenrod;
+  width: 33%;
+  aspect-ratio: 2.5 / 1;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.business-browsing__body {
+  position: relative;
+}
+
+.business-browsing__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: fit-content;
+  gap: 24px;
+}

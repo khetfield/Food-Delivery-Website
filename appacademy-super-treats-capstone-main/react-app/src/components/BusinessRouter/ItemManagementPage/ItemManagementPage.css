@@ -1,0 +1,35 @@
+#item-management-header {
+  padding: 20px 0px;
+}
+
+.item-table thead tr,
+.item-table tbody tr {
+  grid-template-columns: 100px 170px 1fr 100px 150px;
+}
+
+.item-table tr:not(thead > tr):hover {
+  background-color: lightgray;
+}
+
+.item-table__category {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-table__image {
+  aspect-ratio: 1;
+  height: 100%;
+}
+
+.item-table__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-table__name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size: larger;
+}

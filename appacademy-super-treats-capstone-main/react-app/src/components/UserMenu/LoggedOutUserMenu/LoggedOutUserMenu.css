@@ -1,0 +1,6 @@
+.user-menu__login,
+.user-menu__signup {
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}

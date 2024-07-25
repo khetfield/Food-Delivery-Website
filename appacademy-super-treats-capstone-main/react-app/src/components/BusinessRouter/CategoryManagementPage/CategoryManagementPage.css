@@ -1,0 +1,16 @@
+#category-management-header {
+  padding: 20px 0px;
+}
+
+.category-table thead tr,
+.category-table tbody tr {
+  grid-template-columns: 100px 1fr 100px 100px;
+}
+
+.category-action {
+  cursor: pointer;
+}
+
+.category-action--move {
+  font-size: 2rem;
+}

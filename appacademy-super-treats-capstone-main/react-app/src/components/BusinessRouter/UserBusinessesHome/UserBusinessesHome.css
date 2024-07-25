@@ -1,0 +1,9 @@
+.user-business__home {
+  padding-top: 20px;
+}
+
+.user-business__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}

@@ -1,0 +1,25 @@
+.page-header {
+  height: 100px;
+  font-size: 1.5rem;
+}
+
+.header-left {
+  gap: 40px;
+}
+
+.header-menu {
+  cursor: pointer;
+}
+
+.header-logo {
+  font-weight: bold;
+}
+
+.header-right {
+  gap: 15px;
+}
+
+.header-right button {
+  border-radius: 2rem;
+  padding: 0.8rem 1rem;
+}

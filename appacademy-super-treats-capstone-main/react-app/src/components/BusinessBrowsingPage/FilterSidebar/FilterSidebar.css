@@ -1,0 +1,74 @@
+.filter-sidebar {
+  width: 450px;
+  height: 600px;
+  position: sticky;
+  top: 0px;
+  padding: 40px 0px;
+  font-weight: 600;
+}
+
+.filter-sidebar input,
+.filter-sidebar label {
+  cursor: pointer;
+}
+
+.filter-sidebar__section {
+  margin-bottom: 10px;
+}
+
+.filter-sidebar__section h3 {
+  padding: 20px 0px;
+}
+
+.filter-sidebar__section>div {
+  gap: 10px;
+}
+
+.filter-sidebar footer {
+  margin-top: 50px;
+}
+
+.order-radio {
+  appearance: none;
+  border: 3px solid gray;
+  height: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transition: 0.1s border linear;
+  margin-right: 10px;
+}
+
+.order-radio:checked {
+  border: 7px solid black;
+}
+
+.price-count {
+  height: 1.4rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  margin-right: 100px;
+}
+
+.price-count:empty {
+  display: none;
+}
+
+.price-checkbox {
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  background-color: #EEE;
+}
+
+.price-checkbox:hover {
+  background-color: #dddddd;
+}
+
+input:checked+.price-checkbox {
+  background-color: black;
+  color: white;
+}
+
+.price-checks input {
+  appearance: none;
+}

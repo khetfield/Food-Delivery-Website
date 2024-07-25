@@ -1,0 +1,71 @@
+.create-item-form {
+  gap: 10px;
+  margin: 3rem;
+  width: 500px;
+}
+
+.create-item-form input,
+.create-item-form label,
+.create-item-form textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.create-item-form input:focus,
+.create-item-form textarea:focus {
+  border: 2px solid black;
+}
+
+.create-item-form input,
+.create-item-form textarea {
+  border: 2px solid white 1px solid black;
+  outline: none;
+  padding: 0.8rem;
+}
+
+.create-item__category>select {
+  font-size: 1rem;
+  border-radius: 3rem;
+  padding: 10px;
+}
+
+.create-item__category>button {
+  font-size: 1rem;
+  border-radius: 3rem;
+  padding: 10px;
+}
+
+#delete-category {
+  aspect-ratio: 1;
+}
+
+.create-item__picture img {
+  width: 200px;
+  aspect-ratio: 1;
+}
+
+.create-item__price input {
+  width: 100px;
+  text-align: right;
+}
+
+.item-actions {
+  gap: 10px;
+}
+
+.item-actions__save {
+  width: 80px;
+}
+
+/* Hiding price input arrows -- Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hiding price input arrows -- Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

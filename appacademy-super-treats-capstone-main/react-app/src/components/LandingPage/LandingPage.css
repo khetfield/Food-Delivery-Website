@@ -1,0 +1,71 @@
+.landing-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-page__background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("/src/resources/images/landing-page-background.png");
+  background-size: 100% auto;
+  z-index: -10;
+}
+
+.landing__content h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  position: relative;
+}
+
+.landing__address-form-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translate(0px, -75%);
+}
+
+.landing__address-form {
+  gap: 8px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.landing__address-form>* {
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: none;
+  outline: none;
+}
+
+.landing__address-form>input {
+  width: 550px;
+  border-bottom: 2px solid white;
+}
+
+.landing__address-form>input:focus {
+  border-bottom: 2px solid black;
+}
+
+.landing__address-form>select {
+  width: 100px;
+  cursor: pointer;
+}
+
+.landing__address-form>button {
+  border-radius: 5px;
+}
+
+.landing__delivery,
+.landing__delivery * {
+  font-weight: 600;
+}
+
+.signup-link {
+  font-weight: 400;
+}
+
+.signup-link a {
+  color: black;
+  font-weight: 900;
+}

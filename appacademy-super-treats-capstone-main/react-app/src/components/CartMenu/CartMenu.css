@@ -1,0 +1,41 @@
+.carts-menu__wrapper {
+  position: fixed;
+  top: 40px;
+  right: 0px;
+  z-index: 5;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.carts-menu {
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.all-carts {
+  gap: 10px;
+  position: relative;
+}
+
+.single-cart {
+  gap: 10px;
+  padding: 5px;
+  padding-right: 20px;
+}
+
+.single-cart span:not(img + span) {
+  padding-left: 20px;
+}
+
+.single-cart img {
+  aspect-ratio: 1;
+  width: 35px;
+  border-radius: 35px;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+
+.cart-bt+.cart-bt {
+  border-left: 1px solid rgb(77, 77, 77);
+}

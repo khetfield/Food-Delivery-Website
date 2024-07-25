@@ -1,0 +1,47 @@
+.red-icon {
+  color: rgb(228, 2, 2);
+}
+
+.green-icon {
+  color: rgb(59, 182, 59);
+}
+
+.auth-form section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signup-actions {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.signup-actions .signup-actions__button {
+  width: fit-content;
+  border-radius: 3rem;
+}
+
+.restart-signup-modal {
+  width: 550px;
+}
+
+.restart-signup-modal header {
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+
+.restart-signup-modal>div {
+  padding: 40px;
+  gap: 10px;
+}
+
+.restart-signup-modal h2 {
+  font-weight: normal;
+  text-align: center;
+}
+
+.restart-signup-modal button {
+  border-radius: 10px;
+}

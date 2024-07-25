@@ -1,0 +1,18 @@
+.submit-order-modal {
+  width: 450px;
+  padding: 40px;
+}
+
+.submit-order-modal h2 {
+  font-size: 2rem;
+}
+
+.submit-order-modal a {
+  color: green;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.submit-order-modal a:hover {
+  text-decoration: 2px solid underline;
+}

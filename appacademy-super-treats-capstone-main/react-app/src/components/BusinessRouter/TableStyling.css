@@ -1,0 +1,26 @@
+.business-table,
+.business-table tr {
+  width: 100%;
+  margin: auto;
+}
+
+.business-table thead,
+.business-table tbody {
+  display: grid;
+  gap: 0px 20px;
+}
+
+.business-table tr {
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  padding: 3px 0px;
+  margin-bottom: 3px;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+
+.business-table td,
+.business-table th {
+  height: 50px;
+}

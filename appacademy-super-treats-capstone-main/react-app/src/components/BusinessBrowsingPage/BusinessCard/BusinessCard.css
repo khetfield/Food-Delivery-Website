@@ -1,0 +1,78 @@
+.business-card {
+  height: 200px;
+  gap: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+}
+
+.business-card * {
+  max-width: 550px;
+}
+
+.business-card header {
+  overflow: hidden;
+}
+
+.business-card__image {
+  object-fit: cover;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.business-card__info {
+  display: grid;
+  grid-template-areas:
+    "name rating"
+    "address address"
+    "delivery delivery"
+  ;
+  grid-template-columns: auto 1fr;
+}
+
+.business-card__name,
+.business-card__address {
+  max-width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.business-card__name {
+  grid-area: name;
+  font-weight: bold;
+  align-self: center;
+}
+
+.business-card__address {
+  grid-area: address;
+  font-size: 0.85rem;
+  padding: 2px 0px;
+}
+
+.business-card__rating {
+  grid-area: rating;
+  text-align: right;
+  justify-self: end;
+  font-weight: bold;
+  padding: 5px;
+  width: fit-content;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #DDD;
+}
+
+.business-card__delivery {
+  font-size: 0.85rem;
+  grid-area: delivery;
+  display: flex;
+  gap: 5px;
+}
+
+.business-card__delivery * {
+  font-weight: 400;
+}
+
+.business-card__delivery-time {
+  color: gray;
+}
